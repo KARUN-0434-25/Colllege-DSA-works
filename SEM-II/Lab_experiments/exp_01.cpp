@@ -3,6 +3,10 @@
 using namespace std;
 
 int main() {
+
+    cout << "OUTPUT : " << endl;
+
+
     int n, key, pos = -1;
 
     cout << "Enter number of elements: ";
