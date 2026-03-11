@@ -3,9 +3,6 @@
 using namespace std;
 
 int main() {
-
-    cout << "OUTPUT : " << endl;
-
     int n;
 
     cout << "Enter number of elements: ";
@@ -32,15 +29,10 @@ int main() {
         arr[minIndex] = temp;
     }
 
-    cout << "Sorted elements:\n";
+    cout << "Sorted array:\n";
     for(int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
-
-    cout << "\n\nTime Complexity:\n";
-    cout << "Best Case: O(n^2)\n";
-    cout << "Average Case: O(n^2)\n";
-    cout << "Worst Case: O(n^2)\n";
 
     return 0;
 }
